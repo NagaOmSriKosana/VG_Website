@@ -1,5 +1,4 @@
 import React from 'react';
-import './styles/base.css';
 import Hero from './components/Hero';
 import About from './components/About';
 import Products from './components/Products';
