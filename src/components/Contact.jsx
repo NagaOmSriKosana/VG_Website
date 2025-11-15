@@ -5,7 +5,6 @@ export default function Contact(){
   const onChange = e => setForm({...form,[e.target.name]: e.target.value});
   const onSubmit = e => {
     e.preventDefault();
-    // For demo replace with real API endpoint later
     alert('Thanks — demo form submitted. Add backend or Netlify forms to capture leads.');
     setForm({name:'',email:'',message:''});
   };

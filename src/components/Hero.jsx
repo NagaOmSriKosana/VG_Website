@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/hero.css'; // import hero-specific styles
-import heroImg from '../assets/hero-drone.png'; // placeholder
+import '../styles/hero.css'; 
+import heroImg from '../assets/hero-drone.png'; 
 
 export default function Hero(){
   return (
